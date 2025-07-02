@@ -2,103 +2,659 @@
 <html lang="hu">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cancún utazás magyar turistáknak</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Élvezd Mexikót magyarul</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Fontawesome-->
+  <script src="https://kit.fontawesome.com/bfb8e75abd.js" crossorigin="anonymous"></script>
+
+
+
+
+
+  <!-- =======================================================
+  * Template Name: Knight
+  * Template URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
+  * Updated: Oct 16 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
-<body>
-    <header class="bg-light border-bottom sticky-top">
-        <nav class="navbar navbar-expand-lg container">
-            <a class="navbar-brand fw-bold" href="#">Cancún Utazás</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#programok">Programok</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#autoberles">Autóbérlés</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#velemenyek">Vélemények</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#kapcsolat">Kapcsolat</a></li>
-                </ul>
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Élvezd Mexikót <br> magyarul</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Kezdőlap</a></li>
+          <li><a href="#about">Rólunk</a></li>
+          <li><a href="#featured-services">Szolgáltatások</a></li>
+          <li><a href="#portfolio">Kirándulások</a></li>
+          <li><a href="#prices">Árlista</a></li>
+          <li><a href="#faq">GYIK</a></li>
+          <li><a href="#contact">Elérhetőség</a></li>
+
+      </nav>
+
+      <div class="header-social-links">
+
+        <a href="https://www.facebook.com/nyaralas.cancun" target="_blank" class=" facebook"><i
+            class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="whatsup"><i class="fa-brands fa-whatsapp"></i></a>
+
+
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <div class="hero-background">
+        <img src="assets/img/Own/cancun-mexico-jdross75.webp" class="hero-bg active">
+        <img src="assets/img/Own/bacalar.jpg" class="hero-bg">
+        <img src="assets/img/Own/Holbox-Hamacas_7_11zon-scaled.jpg" class="hero-bg">
+        <img src="assets/img/Own/isla-mujeres-elfc.webp" class="hero-bg">
+      </div>
+      <div class="container text-center">
+        <div class="row justify-content-center" data-aos="zoom-out">
+          <div class="col-lg-8">
+
+            <h2>Üdvözlünk az Élvezd Mexikót magyarul oldalán</h2>
+            <p>Gyertek és élvezzétek az igazi Mexikói vendéglátást.</p>
+            <a href="#about" class="btn-get-started">Vágjunk bele!</a>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2 class="egyedi-text">Rólunk</h2>
+
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <img src="assets/img/Own/Anita_Tomi.jpg" class="img-fluid" alt="Anita és Tamás selfie">
+          </div>
+          <div class="col-lg-6 content">
+            <h3 class="egyedi-text">Néhány gondolat magunkról</h3>
+            <br>
+
+            <p class="egyedi-text">
+              2004 óta folyamatosan utaztunk a Nagyvilágban, sok szép helyet láttunk szerencsére!
+              Mindig az volt a vágyunk, hogy egy gyönyörű tengerparton éljünk. Egyszer csak ez a lehetőség megadatott
+              számunkra, mivel, mi igazából a FLP cég jogdíjas managerei vagyunk. Így csak meg kellett találunk azt a
+              helyet, ahol szívesen tudnánk élni. 2017-ben végül is Cancun mellett döntöttünk!!!! Számunkra nagyon jó
+              döntés volt! Ez a város a világ egyik legszebb tengerpartján fekszik, folyamatosan süt a nap, az emberek
+              kedvesek, az élet nyugodt és szabad!
+
+              Nagyon szeretjük a jó hangulatot, örömmel ismerünk meg új embereket!
+
+              Ezért úgy döntöttünk, hogy szívesen megmutatjuk az ide látogató magyar turistáknak ezt a fantasztikus
+              régiót, ahol élünk. Sok barát és ismerős élt már ezzel a lehetőséggel!
+
+              Amennyiben Te is csatlakoznál a mi kis csoportunkhoz illetve kirándulnál velünk, várunk szeretettel!!!!
+              <br><br>
+              Üdvözlettel: Anita és Tamás!
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+
+
+    <!-- Featured Services Section -->
+    <section id="featured-services" class="featured-services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Szolgáltatások</h2>
+        <p>Segítünk, hogy a legjobb élményben legyen részed!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card">
+              <img src="assets/img/cards-1.jpg" alt="" class="img-fluid">
+              <div class="card-body">
+                <h3><a href="#" class="stretched-link">Transzfer</a></h3>
+                <div class="card-content">
+                  <p>Reptéri transzfert biztosítunk</p>
+                </div>
+              </div>
             </div>
-        </nav>
-    </header>
+          </div><!-- End Card Item -->
 
-    <section class="hero text-center text-white bg-primary py-5">
-        <div class="container">
-            <h1 class="display-4">Fedezd fel Cancúnt velünk!</h1>
-            <p class="lead">Magyar nyelvű programok, autóbérlés, tengerpart, élmények!</p>
-            <a href="#programok" class="btn btn-light btn-lg mt-3">Nézd meg az ajánlatokat</a>
-        </div>
-    </section>
-
-    <section id="programok" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="mb-4 text-center">Programok</h2>
-            <div class="row">
-                <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h3 class="card-title">Chichén Itzá túra</h3>
-                            <p class="card-text">Egynapos kirándulás idegenvezetővel.</p>
-                        </div>
-                    </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card">
+              <img src="assets/img/cards-2.jpg" alt="" class="img-fluid">
+              <div class="card-body">
+                <h3><a href="#" class="stretched-link">Autóbérlés</a></h3>
+                <div class="card-content">
+                  <p>Bárhová eljuthatsz, ahová csak akarsz</p>
                 </div>
-                <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h3 class="card-title">Isla Mujeres hajókirándulás</h3>
-                            <p class="card-text">Kényelmes katamarán, korlátlan italfogyasztással.</p>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </div>
-    </section>
+          </div><!-- End Card Item -->
 
-    <section id="autoberles" class="py-5">
-        <div class="container">
-            <h2 class="mb-4 text-center">Autóbérlés</h2>
-            <p class="text-center">Kedvező árak, teljeskörű biztosítással, magyar segítséggel.</p>
-        </div>
-    </section>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <img src="assets/img/cards-3.jpg" alt="" class="img-fluid">
+              <div class="card-body">
+                <h3><a href="#" class="stretched-link">Szállás</a></h3>
+                <div class="card-content">
+                  <p>Apartmant tudunk biztosítani a part közelében</p>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
 
-    <section id="velemenyek" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="mb-4 text-center">Vélemények</h2>
-            <blockquote class="blockquote text-center">
-                <p class="mb-0">"Szuper szervezés, minden magyarul zajlott! Csak ajánlani tudom."</p>
-                <footer class="blockquote-footer">Gábor, 2024. április</footer>
-            </blockquote>
         </div>
-    </section>
 
-    <section id="kapcsolat" class="py-5">
-        <div class="container">
-            <h2 class="mb-4 text-center">Kapcsolat</h2>
-            <form class="mx-auto" style="max-width: 600px;">
-                <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Név" required />
+      </div>
+
+    </section><!-- /Featured Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Csatlakozz a közösségünkhöz</h3>
+            <p>Csatlakozz a Facebook csoportunkhoz, hogy ne maradj le semmiről, és légy részese egy kiváló közösségnek.
+            </p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="https://www.facebook.com/nyaralas.cancun"
+              target="_blank">Csatlakozok</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Kirándulások</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/Own/bacalar.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Bacalar</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/Own/bacalar.jpg" title="Bacalar" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/Own/cenote.avif" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cenoté</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/Own/cenote.avif" title="Cenoté" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/Own/chichen-itza-1.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Chichen Izta</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/Own/chichen-itza-1.webp" title="Chichen Itza" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/Own/cp-uxmalruins_1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Uxmal</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/Own/cp-uxmalruins_1.jpg" title="Uxmal" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/Own/delfin.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Delfin</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/Own/delfin.jpg" title="Delfin" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/Own/ek_balam.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Ek Balam</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/Own/ek_balam.jpeg" title="Ek Balam" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/Own/Holbox-Hamacas_7_11zon-scaled.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Holbox</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/Own/Holbox-Hamacas_7_11zon-scaled.jpg" title="Holbox"
+                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/Own/isla-mujeres-elfc.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Isla Mujeres</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/Own/isla-mujeres-elfc.webp" title="Isla Mujeres"
+                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/Own/las_coloradas.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Las Coloradas</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/Own/las_coloradas.jpg" title="Las Coloradas" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/Own/mercado-28.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cancun Mercado</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/Own/mercado-28.webp" title="Cancun Mercado" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/Own/tulum.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Tulum</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/Own/tulum.jpeg" title="Tulum" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Gyakori Kérdések</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active">
+                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+                <div class="faq-content">
+                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
+                    gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
                 </div>
-                <div class="mb-3">
-                    <input type="email" class="form-control" placeholder="Email" required />
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
+                <div class="faq-content">
+                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet
+                    id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
+                    elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
                 </div>
-                <div class="mb-3">
-                    <textarea class="form-control" rows="4" placeholder="Üzenet"></textarea>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+                <div class="faq-content">
+                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar
+                    elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque
+                    eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis
+                    sed odio morbi quis</p>
                 </div>
-                <button type="submit" class="btn btn-primary">Küldés</button>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div><!-- End Faq Column-->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="faq-container">
+
+              <div class="faq-item">
+                <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+                <div class="faq-content">
+                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet
+                    id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
+                    elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</h3>
+                <div class="faq-content">
+                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in.
+                    Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est.
+                    Purus gravida quis blandit turpis cursus in</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
+                <div class="faq-content">
+                  <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi.
+                    Distinctio ipsam dolore et.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div><!-- End Faq Column-->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Elérhetőség</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
+          <iframe style="border:0; width: 100%; height: 270px;"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119096.92551854593!2d-86.9388038048506!3d21.121378333296715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c2b05aef653db%3A0xce32b73c625fcd8a!2zQ2FuY8O6biwgUXVpbnRhbmEgUm9vLCBNZXhpa8Oz!5e0!3m2!1shu!2shu!4v1751463930484!5m2!1shu!2shu"
+            frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div><!-- End Google Maps -->
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Cím</h3>
+                <p>Cancún,
+                  Quintana Roo,
+                  Mexikó</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Telefonszám</h3>
+                <p>+1 5589 55488 55</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>info@example.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+              data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Az üzenetet elküldtük, köszönjük!</div>
+
+                  <button type="submit">Üzenet küldése</button>
+                </div>
+
+              </div>
             </form>
+          </div><!-- End Contact Form -->
+
         </div>
-    </section>
 
-    <footer class="text-center py-4 bg-dark text-white">
-        <p class="mb-0">&copy; 2025 Cancún Utazás. Minden jog fenntartva.</p>
-    </footer>
+      </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">Knight</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow Us</h4>
+          <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+          <div class="social-links d-flex">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Knight</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
