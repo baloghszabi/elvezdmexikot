@@ -15,6 +15,7 @@ Egy reszponzív, többoldalas weboldal, amely bemutatja a mexikói utazási lehe
 - `index.html` – főoldal
 - `portfolio-details.html` – kirándulások részletes aloldala
 - `assets/` – képek, ikonok, videók, CSS és JS fájlok
+- `forms/` - kapcsolatfelvételi űrlap
 - reszponzív dizájn Bootstrap 5-tel
 
 ## 🛠️ Technológiák
@@ -43,9 +44,23 @@ vagy index.html-t GitHub Pages-hez publikáláshoz
 📘 Megjegyzés GitHub Pages használatához
 A index.html tartalmaz egy <base href="/elvezdmexikot/"> taget, hogy GitHub Pages alatt helyesen működjenek a fájlútvonalak. Lokális fejlesztéshez használd a index-dev.html fájlt, amely ezt nem tartalmazza.
 
+## ✉️ Kapcsolatfelvételi űrlap (PHP)
+
+Az oldal tartalmaz egy működő kapcsolatfelvételi űrlapot, amely a következő fájlban van kezelve:
+
+- `forms/contact.php` – kezeli az űrlap elküldését és e-mail küldést (PHP)
+
+A `contact.php` fájl felelős az alábbiakért:
+- beérkező mezők (név, email, tárgy, üzenet) validálása
+- e-mail küldés a megadott címre
+- válasz visszaküldése AJAX-on keresztül (JSON)
+
+**Fontos:** Az űrlap működéséhez PHP-s backend szükséges (pl. Apache + PHP szerver), ezért GitHub Pages alatt nem fog működni.
+
+
 👤 Készítette
 Szabolcs Balogh
-Frontend fejlesztő tanuló
+Frontend fejlesztő
 GitHub: baloghszabi
 
 📄 Licenc
