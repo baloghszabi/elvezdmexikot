@@ -8,7 +8,6 @@ Egy reszponzív, többoldalas weboldal, amely bemutatja a mexikói utazási lehe
 
 ## 📸 Képernyőképek
 
-> *(Tölts fel ide egy screenshotot a `hero` részről vagy a kirándulások kártyákról.)*
 
 ## 📁 Oldalstruktúra
 
