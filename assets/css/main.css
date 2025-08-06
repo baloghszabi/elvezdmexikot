@@ -986,6 +986,13 @@ section,
   opacity: 1;
 }
 
+.card-img-top {
+  object-fit: cover;
+  object-position: center 30%; /* vagy center 40%, ha még lejjebb akarod */
+  height: 250px; /* vagy amennyi kell */
+  width: 100%;
+}
+
 /*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
@@ -2485,4 +2492,65 @@ section,
   top: -100px; /* ez az eltolás mértéke, igazítsd a navbar magasságához */
   height: 1px;
   visibility: hidden;
+}
+/* Hamburger ikon és mobil menü */
+.mobile-nav-toggle {
+  font-size: 28px;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 10000;
+}
+
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  background: white;
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  width: 200px;
+  z-index: 9999;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+}
+
+.mobile-nav a {
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #eee;
+}
+
+.mobile-nav a:last-child {
+  border-bottom: none;
+}
+
+body.mobile-nav-active .mobile-nav {
+  display: flex;
+}
+body.mobile-nav-active #mobile-nav {
+  display: flex;
+}
+/* Alapból rejtve van */
+#mobile-nav {
+  display: none;
+  flex-direction: column;
+  background-color: white;
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  width: 200px;
+  z-index: 9999;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+}
+
+/* Amikor megnyílik */
+body.mobile-nav-active #mobile-nav {
+  display: flex;
 }
