@@ -2,9 +2,7 @@
 
 Egy reszponzív, többoldalas weboldal, amely bemutatja a mexikói utazási lehetőségeket magyar turisták számára. Az oldal célja, hogy segítsen magyar nyelven eligazodni a cancúni nyaralás szervezésében, legyen szó kirándulásokról, transzferről vagy autóbérlésről.
 
-## 🔗 Élő demó
-
-🌐 [Megnyitás GitHub Pages-en](https://baloghszabi.github.io/elvezdmexikot/)
+https://elvezdmexikotmagyarul.com/
 
 ## 📸 Képernyőképek
 
