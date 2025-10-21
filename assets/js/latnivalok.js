@@ -39,7 +39,7 @@ const tours = {
     title: "Uxmal piramis",
     desc: "Vannak akik messzebbre merészkednének, mint a megszokott turista célpontok! Nekik ajánljuk a körutazásainkat! Egyik ilyen állomás Uxmal piramis.<br>Uxmal városa a Yucatán-félszigeten, a mexikói Yucatán államában helyezkedik el,Mayák alapították. A maya civilizáció késői klasszikus korában kb. i. sz. 800 és i. sz. 1000 között élte virágkorát és a Mayapán városszövetségbe tartozott. A város nevének jelentése: Háromszor épített. Uxmal, Mexikó egyik legfontosabb történelmi és kulturális látnivalója. A Yucatán-félszigeten található Merida városától durván 55 kilométerre található Uxmal-t eredetileg a 9. században kezdték el építeni. Uxmal egykor a régió fővárosa volt. A különböző kőszintek és bonyolult kőfaragások adják a piramis alakzat hihetetlen megjelenését. Ha a városban járunk, semmiképp se hagyjuk ki a Varázsló piramisát, Uxmal legmagasabb piramisát. <br>Nekünk a kedvenc piramisunk!",
     images: [
-      "/assets/img/portfolio/uxmaljpg",
+      "/assets/img/portfolio/uxmal.jpg",
       "/assets/img/portfolio/uxmal2.jpeg",
     ],
   },
